@@ -1,0 +1,26 @@
+# PostgreSQL. Versions 9.1 and up are supported.
+#
+
+#
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  # For details on connection pooling, see Rails configuration guide
+  # http://guides.rubyonrails.org/configuring.html#database-pooling
+  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+
+development:
+  <<: *default
+  database: rails-app-udemy_development
+
+
+test:
+  <<: *default
+  database: rails-app-udemy_test
+
+
+production:
+  <<: *default
+  database: rails-app-udemy_production
+  username: rails-app-udemy
+  password: <%= ENV['RAILS-APP-UDEMY_DATABASE_PASSWORD'] %>

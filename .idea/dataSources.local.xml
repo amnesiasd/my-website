@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="Rails rails-app-udemy: development" uuid="8c8236bb-b16d-47ad-9747-139b3f8fb437">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" />
+      <first-sync>true</first-sync>
+      <user-name>troyh</user-name>
+    </data-source>
+    <data-source name="Rails rails-app-udemy: test" uuid="1b35523c-15f6-4637-a82f-c6a2e8c81e8b">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" />
+      <first-sync>true</first-sync>
+      <user-name>postgres</user-name>
+    </data-source>
+    <data-source name="Rails rails-app-udemy: production" uuid="bbc1f5b0-5c4e-4eb1-99e4-0a12eedaced1">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" />
+      <first-sync>true</first-sync>
+      <user-name>rails-app-udemy</user-name>
+    </data-source>
+  </component>
+</project>
