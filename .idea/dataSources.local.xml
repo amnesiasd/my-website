@@ -7,9 +7,12 @@
       <user-name>troyh</user-name>
     </data-source>
     <data-source name="Rails rails-app-udemy: test" uuid="1b35523c-15f6-4637-a82f-c6a2e8c81e8b">
-      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" />
-      <first-sync>true</first-sync>
+      <database-info product="PostgreSQL" version="9.5.10" jdbc-version="4.2" driver-name="PostgreSQL JDBC Driver" driver-version="42.2.0">
+        <identifier-quote-string>&quot;</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="lower" quoted-identifiers="exact" />
       <user-name>postgres</user-name>
+      <introspection-schemas>rails-app-udemy_test:public</introspection-schemas>
     </data-source>
     <data-source name="Rails rails-app-udemy: production" uuid="bbc1f5b0-5c4e-4eb1-99e4-0a12eedaced1">
       <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" />
