@@ -31,6 +31,7 @@ class TopicsController < ApplicationController
         format.html { redirect_to @topic, notice: 'Topic was successfully created.' }
         format.json { render :show, status: :created, location: @topic }
       else
+        flash[:danger] = @topic.errors.full_messages.to_sentence
         format.html { render :new }
         format.json { render json: @topic.errors, status: :unprocessable_entity }
       end
